@@ -1,0 +1,118 @@
+# 測試用登入玩家資訊
+
+# STG
+# 玩家資訊 - 轉帳錢包測試玩家
+# 使用限紅 - 6: 100〜10K
+stg_usd_trans_player:
+  pid: JTT1N
+  username: jtstgautousdtrans
+  key: EA70960224089B06D6A3417E508B3C9F
+  callback_key: N/A
+  bet_amounts:
+      bac:
+        banker: 2000
+        banker_nocomm: 2000
+        player: 2000
+        tie: 50
+        player_pair: 50
+        banker_pair: 50
+        any_pair: 50
+        perfect_pair: 10
+        banker_dragon_bonus: 10
+        player_dragon_bonus: 10
+        lucky6: 10
+        duo_bao: 10
+        lucky6_2: 10
+        lucky6_3: 10
+        lucky7: 10
+        super_lucky7: 10
+      dtb:
+        tiger: 1000
+        dragon: 1000
+        tie: 500
+        tiger_odd: 100
+        tiger_even: 100
+        dragon_odd: 100
+        dragon_even: 100
+        tiger_red: 100
+        tiger_black: 100
+        dragon_red: 100
+        dragon_black: 100
+
+
+# REL
+# 玩家資訊 - 轉帳錢包測試玩家
+# 使用限紅 - 6: 100〜10K
+rel_usd_trans_player:
+  pid: JTREU
+  username: jtautousdtrans
+  key: BB25F2A8E54FED893BF1BDEFC9A937B0
+  callback_key: N/A
+  bet_amounts:
+      bac:
+        banker: 2000
+        banker_nocomm: 2000
+        player: 2000
+        tie: 50
+        player_pair: 50
+        banker_pair: 50
+        any_pair: 50
+        perfect_pair: 10
+        banker_dragon_bonus: 10
+        player_dragon_bonus: 10
+        lucky6: 10
+        duo_bao: 10
+        lucky6_2: 10
+        lucky6_3: 10
+        lucky7: 10
+        super_lucky7: 10
+      dtb:
+        tiger: 1000
+        dragon: 1000
+        tie: 500
+        tiger_odd: 100
+        tiger_even: 100
+        dragon_odd: 100
+        dragon_even: 100
+        tiger_red: 100
+        tiger_black: 100
+        dragon_red: 100
+        dragon_black: 100
+
+# 玩家資訊 - 單一錢包測試玩家
+# 使用限紅 - 6: 100〜10K
+rel_usd_single_player:
+  pid: JTRUR
+  username: jtautousdsingle
+  key: 6C0E973E2E9FC3B720573F669D5A1F10
+  callback_key: B1CB551C3309E4451CBFA0B6475BFBA8
+  bet_amounts:
+      bac:
+        banker: 2000
+        banker_nocomm: 2000
+        player: 2000
+        tie: 50
+        player_pair: 50
+        banker_pair: 50
+        any_pair: 50
+        perfect_pair: 10
+        banker_dragon_bonus: 10
+        player_dragon_bonus: 10
+        lucky6: 10
+        duo_bao: 10
+        lucky6_2: 10
+        lucky6_3: 10
+        lucky7: 10
+        super_lucky7: 10
+      dtb:
+        tiger: 1000
+        dragon: 1000
+        tie: 500
+        tiger_odd: 100
+        tiger_even: 100
+        dragon_odd: 100
+        dragon_even: 100
+        tiger_red: 100
+        tiger_black: 100
+        dragon_red: 100
+        dragon_black: 100

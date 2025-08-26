@@ -1,0 +1,11 @@
+# Sensitive Information
+
+gameapi:
+  domain: https://demo-game-api.example.com
+  vendorapi_domain: https://demo-vendor-api.example.com
+
+login_server:
+  domain: wss://demo-game-server.example.com:16284
+
+gate_server:
+  domain: wss://demo-game-server.example.com:17856
