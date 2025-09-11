@@ -1,7 +1,7 @@
-# WT Game Automation Testing
+# Game Automation Testing
 
 ## 專案概述
-針對WT遊戲客戶端的自動化測試框架
+針對遊戲客戶端的自動化測試框架
 
 ### 主要功能
 - 自動化登入與連線管理
@@ -29,7 +29,7 @@
 ```
 # 1. 克隆專案
 git clone <repository-url>
-cd wt-game-automation
+cd game-automation
 
 # 2. 建立虛擬環境
 python -m venv venv
@@ -98,7 +98,7 @@ python -m pytest tests/bac/single_table/test_bac_odds.py -v
 ## 環境配置
 ### 測試環境需求
 1. 測試帳號設定:
-   - 測試帳號要放到操盤熱加載永不踢桌內
+   - 測試帳號要放到Operator熱加載永不踢桌內
    - 確保帳號有足夠的測試額度
 2. 桌台配置:
    - 結算秒數: 5秒
@@ -112,7 +112,7 @@ python -m pytest tests/bac/single_table/test_bac_odds.py -v
 - player_info: 各幣別測試用玩家的配置資訊
 
 ## 專案架構
-    wt-game-automation/
+    game-automation/
         ├── src/                        # 核心程式代碼目錄
         │   ├── conf/                   # 配置文件目錄
         │   ├── connection/             # 連接處理模塊

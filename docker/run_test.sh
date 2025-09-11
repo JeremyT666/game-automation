@@ -1,10 +1,10 @@
 #!/bin/bash
-# filepath: /wt-game-automation/docker/run_test.sh
+# filepath: /game-automation/docker/run_test.sh
 
 set -e  # 遇到錯誤立即停止
 
 # =============================================================================
-# WT Game Automation Test Runner
+# Game Automation Test Runner
 # =============================================================================
 
 # 顏色定義
@@ -17,7 +17,7 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 # 配置變數
-IMAGE_NAME="wt-game-automation"
+IMAGE_NAME="game-automation"
 DOCKERFILE_PATH="./Dockerfile"          # 相對於docker路徑
 BUILD_CONTEXT="../"                     # 專案根目錄作為構建上下文
 DEFAULT_PLAYER_ID="rel_usd_trans_player"
@@ -32,7 +32,7 @@ DEFAULT_CONTAINER_NAME="jt-autotest-runner"
 show_banner() {
     echo -e "${BLUE}"
     echo "╔═══════════════════════════════════════════════════════════╗"
-    echo "║                 WT Game Automation Runner                 ║"
+    echo "║                 Game Automation Runner                     ║"
     echo "║                      Docker Version                       ║"
     echo "╚═══════════════════════════════════════════════════════════╝"
     echo -e "${NC}"

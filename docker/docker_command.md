@@ -1,6 +1,6 @@
 # docker build command
 ```bash
-docker build -f ./docker/Dockerfile -t wt-game-automation:$(date +%Y%m%d) .
+docker build -f ./docker/Dockerfile -t game-automation:$(date +%Y%m%d) .
 ```
 
 # docker run command
@@ -9,7 +9,7 @@ docker run --rm \
   -v /etc/localtime:/etc/localtime:ro \
   -v $(pwd)/logs:/app/reports/logs:rw \
   --name jt-test \
-  wt-game-automation \
+  game-automation \
   -v --player-id=rel_usd_trans_player -m "bac_balancecheck"
 ```
 

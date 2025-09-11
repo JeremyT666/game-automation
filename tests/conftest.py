@@ -328,7 +328,7 @@ dtb_bet_amounts = game_bet_amounts_factory("dtb")
 def pytest_html_report_title(report):
     """修改測試報告的標題"""
     # pytest-html 會自動生成測試報告的標題
-    report.title = "WT Automation Test Report"
+    report.title = "Automation Test Report"
 
 @pytest.hookimpl(optionalhook=True)
 # optionalhook=True：表示這是一個可選的 hook，pytest 系統不會因為找不到這個 hook 而報錯
@@ -507,9 +507,9 @@ def send_slack_notification(test_summary_info, config):
         message = {
             "attachments": [
                 {
-                    "fallback": f"WT Auto Test Report: {test_summary_info['passed']}/{test_summary_info['total']} passed", # slack在手機端通知顯示的訊息摘要
+                    "fallback": f"Auto Test Report: {test_summary_info['passed']}/{test_summary_info['total']} passed", # slack在手機端通知顯示的訊息摘要
                     "color": color,
-                    "pretext": f"{status_emoji} *WT Automation Test Report*",
+                    "pretext": f"{status_emoji} *Automation Test Report*",
                     # "title": f"Test Summary",
                     # "title_link": "https://yourjenkins.com/job/your-test-job",  # 串接到CI/CD (jenkins)的測試報告網址
                     "fields": [
@@ -542,7 +542,7 @@ def send_slack_notification(test_summary_info, config):
                         #     "short": True
                         # }
                     ],
-                    "footer": "WT Game Automation by JT",
+                    "footer": "Game Automation by JT",
                     # "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png",    # 預設的footer icon
                     "footer_icon": "https://emoji.slack-edge.com/T3TBQHWBA/jt%25E6%2588%2591%25E4%25B9%259F%25E4%25B8%258D%25E7%259F%25A5%25E9%2581%2593/e68633b7e8521afb.gif",
                     "ts": int(datetime.now().timestamp())
